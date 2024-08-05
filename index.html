@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Проект</title>
+    <link rel="stylesheet" href="reset.css"> <!-- поключила файл css на сброс отступов до 0 -->
+    <link rel="stylesheet" href="styles.css"> <!-- подключила стили css путь через папку styles-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet"> <!--подключила шрифт кастомный Googl-->
+</head>
+<body>
+    <!--создание NAV секции-->
+    <div class="nav-section"> <!--карказ nav панели, общая обвертка-->
+     <div class="nav-container"> <!--ограничение контейнера по длине и отступам по краям-->
+        <!--делаю логотип  ссылкой для перехода на главную страницу-->
+        <a class="logo-link" href="/">
+<img class="logo" src="met.png" alt="logotip"> </a> <!--путь до рисунка-->
+
+<!--класс для nav меню в виде ссылок-->
+<div class="nav"> 
+    <!--создаем якорные ссылки по клику на заголовки-->
+<a class="nav__link nav__link_dt" href="#onas" > о нас</a> <!--якорная ссылка О НАС-->
+<a class="nav__link" href="#projects"> проекты</a>  <!--якорная ссылка PROJECTS-->
+<a class="nav__link" href="#services">услуги</a>  <!--якорная ссылка SERVICES-->
+<a class="nav__link  nav__link_ct" href="#adress"> контакты</a>  <!--якорная ссылка КОНТАКТЫ-->
+</div>
+     </div>  
+            </div>
+
+    <!--первый контейнер CONT-->
+    <div class="cont">
+        <h1>Современные и стильные  интерьеры для комфортной жизни</h1>               
+ <div class="kreslo"> 
+  <p>Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и реализацией дизайн-проектов </p>
+</div>
+</div>
+
+<!--вторая часть первого контейнера О НАС-->
+<div  id="onas" class="onas">  <!--якорная ссылка О НАС-->
+ <h2 id="zag2">о нас</h2> 
+<h2 class="onas__h2">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</h2>
+<a href="files.html"><button>Посмотреть услуги</button> </a>
+</div>
+
+<!--Второй контейнер PROJECTS-->
+<div id="projects" class="projects">  <!--якорная ссылка PROJECTS-->
+<h2 class="projects__h2">проекты</h2>
+<div class="divan"> <!--класс для первого блока -->
+    <img class="divan__img" src="divan.png" alt="диван">
+    <h3 class="divan__h3"> ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+    <p class="divan__p"> <a href="files.html" alt="ссылка на проект"> Подробнее →</a> </p>
+</div>
+
+<!--второй блок второго контейнера-->
+      <div class="lime"> <!--класс для первого блока -->
+        <img class="lime__img" src="stol.png" alt="стол лимонного цвета">
+        <h3 class="lime__h3">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
+        <p class="lime__p"> Подробнее →</p>
+            </div>
+
+<!--третий контейнер -->
+<div class="lest">
+    <img class="lest__img" src="lest.png" alt="лестница">
+    <h3 class="lest__h3">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
+    <p class="lest__p"> Подробнее →</p>
+    <a class="lest__a" href="files.html">Смотреть все проекты</a> <!--ссылка-кнопка-->
+        </div>
+    </div>
+
+    <!--добавление черной секции УСЛУГИ-->
+    <div id="services" class="box"> <!--создание якорной ссылки и  черной секции--> 
+    <h2>услуги </h2>      
+<div class="planir"> <!--первое блок с карандашом-->
+    <img  src="123.png" alt="карандаш">  <!--вставила рисунок  в блок-->
+    <h3>Планировочное решение — от 2500₽/м²</h3> <!--вставила  заголовок в блок-->
+    </div> <!--блок с карандашом закрыт-->
+    <!--добавление второго блока с рисунком дизайн-->
+    <div class="design"> <!--первое блок с карандашом-->
+        <img  src="color.png" alt="политра">  <!--вставила рисунок  в блок-->
+        <h3>Дизайн-проект — от 3000₽/м²</h3> <!--вставила  заголовок в блок-->
+        </div> <!--блок с design закрыт-->
+        <!--добавление третьего блока  SUPERVISION-->
+        <div class="supervis"> <!--первое блок надзор-->
+            <img  src="bumaga.png" alt="бумага">  <!--вставила рисунок  в блок-->
+            <h3>Авторский надзор — от 30 000₽ в месяц</h3> <!--вставила  заголовок в блок-->
+            </div> <!--блок с supervision закрыт-->
+            <!--добавление четвертого блока CALC-->
+            <div class="calc"> <!--первое блок надзор-->
+                <img  src="stelaj.png" alt="стелаж">  <!--вставила рисунок  в блок-->
+                <h3>Комплектация — 5% от стоимости спецификации</h3> <!--вставила  заголовок в блок-->
+                </div> <!--блок с CALC закрыт-->
+</div>
+
+<!--добавление блока  bet на всю ширину -->
+
+<div class="bet">
+        <h3 class="bet__h3"> Проект  Двухкомнтаной квартиры в ЖК Лесной Пейзаж</h3>
+</div>
+
+<!--создание контейнера КОНТАКТЫ-->
+<div id="adress" class="tel"> <!--класс для контейнера-->
+    <h2 class="tel__h2">Контакты </h2>  <!--класс для заголовка-->
+    <a class="tel__numer" href="tel:+7 935 895-45-35">+7 935 895-45-35 </a>
+    <a class="tel__mail" href="mailto:hello@mail.com">hello@mail.com </a>
+    </div> <!--блок с КОНТАКТЫ закрыт-->
+       </body>
+      
+       <!--создание подвала-->
+       <!-- добавление черной секции на весь экран -->
+<div class="footer">
+    <div class="nav-footer">
+        <a class="nav-footer__link nav-footer__link_active" href="">О НАС</a> <!--создание активной ссылки опазиция 50%-->
+            <a href="" class="nav-footer__link">ПРОЕКТЫ</a>
+                <a href="" class="nav-footer__link">УСЛУГИ</a>
+                    <a href="" class="nav-footer__link">КОНТАКТЫ</a>
+                    </div>
+<p>студия дизайна интерьера Метрика — 2023</p>
+</div>
+ </html> 

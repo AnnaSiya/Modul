@@ -1,0 +1,565 @@
+
+body {
+  width: 1400px;
+  height: 7211px;
+    position: relative;
+   font-weight: 400;
+   font-family: "Manrope", sans-serif;
+   overflow-x: hidden;  /*убирает нижний скрол*/
+  }
+
+  /*создание плавного скрола*/
+html {
+scroll-behavior: smooth; 
+                }
+
+                /*создание стилей для карказа nav заголовки меню-ссылки*/
+    .nav-section {  /*оболочка NAV панели*/
+      margin-top: 30px; /* ВЕРНО отступ для напенли NAV сверху*/
+                                                         }
+
+    /*стили для контенйнера с отступами длина по бокам */
+    .nav-container {
+                width: 1151.35px;
+     height: 25.18px;
+     margin-left: 125px;
+  
+     
+         }
+     .logo-link {  /*ссылка логотип inl.bl*/
+      display: inline-block;
+     
+     }   
+
+     .logo {  /*логотип block disp*/
+      display: block;
+     }
+
+     .nav {
+      margin-left: 510px;
+      display: inline-block;
+       vertical-align: top; /*задала расположение меню на панели nav*/
+      text-transform: uppercase; /*делает все буквы строчными-заглавными*/
+     
+        
+    }
+     
+     .nav__link {
+      width: 90px;
+      height: 25px;
+      color:#000000;
+           margin-right: 50px; /*расстояние между меню*/
+                line-height: 25px;
+          font-size: 20px;
+          text-decoration: none; /*убрала подчеркивание у ссылок*/
+               }
+
+          .nav__link:hover { /*изменение цвета заголовков при наведении курсора*/
+           background-color: aqua;
+           color: #ff44aa;
+                      }
+
+          
+     .nav__link_dt { /*класс для прозрачности ссылки -заголовка*/
+      opacity: 50%; /*прозрачность текста*/
+      text-decoration: underline;/*подчеркивание у ссылки-заголовка включила */
+      
+         }
+              
+     .nav__link_ct { /*класс для отступа margin права последней закладки*/
+      margin: 0px;
+     }
+                           
+
+                     /*первый контейнер CONT*/           
+    .cont { 
+      width: 1150px;
+      height: 650px;
+      margin-top: 150px;
+       margin-left: 125px;
+              margin-right: 125px;
+    
+
+         /*отсутпы контейнера сверху*/
+         }
+
+              
+       h1 {  /*указала стили для заголовка в контейнере*/
+        width: 956px;
+        height: 120px;
+        box-sizing: border-box;
+        color: #0f0f0f;
+          font-size: 60px;
+          line-height: 60px;
+        letter-spacing: -0.03em;
+                      }
+
+    .kreslo { /* создалa контейнер для фонов изобр и рисунка*/
+     width: 1150px;
+    height: 500px;
+    position: relative;
+  margin-top:  27px; /*отступ фонового рисунка вниз*/
+     background-image: url('kreslo.png');
+    background-size: contain; /*масштаб изображения*/
+           background-repeat: no-repeat; /*указала, что изображение не повторяется*/
+  background-position: 100%;
+          }
+
+         .kreslo p  { /*указала стили для P вниз */
+        width: 430px;
+        height: 81px;
+        top: 373px;
+        left: 43px;
+        position: absolute;
+        line-height: 27.32px;
+        color: #edecf1;
+        font-size: 20px;
+        letter-spacing: -0.03em;
+             }
+
+     /*класс для блока о нас*/
+     .onas { 
+      /*класс для второго блока о нас /фото мебели*/
+      width: 1051px;
+      height: 518px;  
+      margin-left: 125px;
+      margin-top: 150px; /*отступ вниз секции*/
+                 margin-right: 125px;
+             
+                }
+    
+        #zag2 {   /*ID для заголовка h2*/
+        width: 59px;
+        height: 25px;
+         text-transform: uppercase;
+        font-size: 18px;
+        line-height: 25px;
+        Letter-spacing: -0.03em;
+        color: #000000;
+              
+                   } 
+          #zag2:hover { /*увеличение и изменение цвета при наведении заголовка*/
+            transform: scale(2);
+            color:#f00b0b;
+          }         
+
+       .onas__h2 { /*стили для заголовка H2*/
+      width: 1048px;
+      height: 366px;
+      font-size: 40px;
+      padding-top: 20px;
+      line-height: 60px;
+      letter-spacing: 0.03em;
+      color:#121212;
+           margin-bottom: 55px; /*отступ для кнопки вниз*/
+                               
+                }
+   
+   .onas button { /*стили для кнопки*/
+   width: 255px;
+   height: 67px;
+   font-size: 20px;
+   color:#ffffff;
+       line-height: 27.32px;
+   letter-spacing: -0.03em;
+   background-color: #AD1818;
+   padding: 20px, 40px, 20px, 40px;
+   border-radius: 5px;
+   cursor: pointer; /*меняем курсор принаведени  на руку*/
+        }
+
+    /*второй контейнер PROJECTS*/
+     .projects {
+      width: 1150px;
+      height: 2122px;
+      margin-left: 125px;
+      margin-right: 125px;
+       box-sizing: border-box;
+             margin-top: 150px; /*отступ для kонтейнера вниз*/
+     }
+
+     .projects__h2 {
+      width: 79px;
+      height: 25px;
+            text-transform: uppercase; /*все буквы прописные заглавные*/
+      font-size: 18px;
+            margin-bottom: 20px; /*отступ вниз */
+      line-height: 24.59px;
+      letter-spacing: -0.03em;
+      
+           }
+
+     /*блок 1 Divan-изобр ссылка H3*/
+     .divan {
+      width: 1150px;
+      height: 548px;
+      display: block;
+            box-sizing: border-box;
+             
+     }
+     
+     .divan__img {
+      width: 1150px;
+      height: 450px;
+      margin-bottom: 8px;
+                                      
+           }
+
+     .divan__h3 {
+      width: 501px;
+      height: 41px;
+                font-size: 30px;
+      line-height: 40.98px;
+      letter-spacing: -0.03em;
+      color: #121212;
+          margin-bottom: 20px;
+                 
+     }
+
+     .divan__p {
+     width: 127px;
+     height: 27px;
+     font-size: 20px;
+          line-height: 28px;
+     letter-spacing: -0.03em;
+     color: #AD1818;
+    
+     }
+      
+     * /*блок 1-2 lime-изобр ссылка H3*/
+     .lime {
+      width: 1150px;
+      height: 548px;
+      margin-top: 60px; /*отступ блока на низ*/
+      box-sizing: border-box;
+                 
+     }
+     
+     .lime__img {
+      width: 1150px;
+      height: 450px;
+      box-sizing: border-box;
+      margin-bottom: 10px; /*отступ от рисунка заголовка*/
+                                            
+           }
+
+     .lime__h3 {
+      width: 520px;
+      height: 41px;
+      font-size: 28.4px;
+      line-height: 40.98px;
+      letter-spacing: -0.03em;
+      color: #121212;
+      margin-bottom: 35px; /*отступ снизу*/
+                             
+     }
+
+     .lime__p {
+     width: 127px;
+     height: 27px;
+     margin-bottom: 20px; /*отступ снизу к рамке*/
+     font-size: 20px;
+     line-height: 27.32px;
+     letter-spacing: -0.03em;
+     color: #AD1818;
+     
+     }
+
+     * /*блок 1-3 lest-изобр ссылка H3*/
+     .lest {
+      width: 1150px;
+      height: 548px;
+      box-sizing: border-box;
+      margin-top: 60px; /*отступ блока на низ*/
+               
+     }
+     
+     .lest__img { /*стили для рисунка*/
+      width: 1150px;
+      height: 450px;
+      box-sizing: border-box;
+      margin-bottom: 10px; /*отступ от рисунка заголовка*/
+                                            
+           }
+
+     .lest__h3 { /*стили для заголовка*/
+      width: 542px;
+      height: 41px;
+      font-size: 30px;
+      margin-bottom: 15px;
+      line-height: 40.98px;
+      letter-spacing: -0.03em;
+      color: #121212;
+      margin-bottom: 35px; /*отступ снизу*/
+                       
+     }
+
+     .lest__p { /*стили для P*/
+     width: 127px;
+     height: 27px;
+     margin-bottom: 135px; /*отсуп для кнопки вниз*/
+      font-size: 20px;
+     line-height: 27.32px;
+     letter-spacing: -0.03em;
+     color: #AD1818;
+     }
+
+ .lest__a {  /*ссылка-кнопка с изменением при наведении*/
+  display: block;
+  width: 1150px;
+  height: 153px;
+  border-radius: 5px;
+  border: 1px solid #f00b0b;
+  text-align: center;
+  line-height: 150px;
+  font-size: 30px;
+  color:  #AD1818;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+
+ }
+
+  .lest__a:hover { /*при навед.изменяется цвет текста и фон*/
+    background-color: #AD1818;
+    color: #ffffff;
+  }
+    
+  /*класс для секции с черным фоном*/
+  
+  .box {
+    width: 100%;
+        height: 1844px;
+           background-color: #000000;
+          margin-top: 150px;
+                     }
+
+    .box h2 { /*стили для заголовка h2*/
+    width: 66px;
+    height: 25px;
+    font-size: 18px;
+    padding-top: 151px; /*внутр.отступ вверх*/
+    padding-left: 127px; /*внутренний отступ лево*/
+    line-height: 24.59px; /*межстрочный интервал*/
+    letter-spacing: -0.03em;
+    text-transform: uppercase; /*буквы строчные заглавные*/
+    color:  #ffffff;
+    }
+  
+    /*первый блок PLANIR*/
+   
+  .planir {
+    width: 1150px;
+    width: 326px;
+    padding-left: 125px; 
+    padding-right: 125px; 
+    padding-top: 50px;  /*отступ от заголовка*/
+          }
+
+    h3 {
+    width: 541px;
+    height: 41px;
+    font-size: 30px;
+    padding-top: 20px; /*отступ от рисунка */
+    line-height: 40.98px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+   }
+
+    /*второй блок DESIGN*/
+  
+  .design {
+   width: 1150px;
+   width: 326px;
+   padding-left: 125px; 
+   padding-right: 125px; 
+   padding-top: 50px;  /*отступ от заголовка*/
+         }
+
+   h3 {
+   width: 405px;
+   height: 41px;
+   font-size: 30px;
+   padding-top: 20px; /*отступ от рисунка */
+   line-height: 40.98px;
+   letter-spacing: -0.03em;
+   color: #ffffff;
+  }
+
+  /*третий блок SUPERVISION*/
+  .supervis {
+    width: 1150px;
+    width: 326px;
+    padding-left: 125px; 
+    padding-right: 125px; 
+    padding-top: 50px;  /*отступ от заголовка*/
+          }
+ 
+    h3 {
+    width: 536px;
+    height: 41px;
+    font-size: 30px;
+    padding-top: 20px; /*отступ от рисунка */
+    line-height: 40.98px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+   }
+
+   /*четвертый блок CALC*/
+
+   .calc {
+    width: 1150px;
+    width: 326px;
+    padding-left: 125px; 
+    padding-right: 125px; 
+    padding-top: 50px;  /*отступ от заголовка*/
+          }
+ 
+    h3 {
+    width: 661px;
+    height: 41px;
+    font-size: 30px;
+    padding-top: 20px; /*отступ от рисунка */
+    line-height: 40.98px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+   }
+/*добавление секции PROJECT  на всю ширину*/
+
+
+.bet {
+  height: 717px;
+  background-image: url('bet.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50%;
+padding-left: 125px; /*отступ слева для H3*/
+padding-top: 555px; /*отступ вниз для H3*/
+}
+
+.bet__h3 {
+  width: 443px; /*ширина заголовка*/
+  height: 82px; /*высота заголовка*/
+  line-height: 40.98px; /*межстрочный*/
+  font-size: 30px; 
+}
+ 
+/*класс  для контейнера КОНТАКТЫ*/
+.tel {  
+  width: 465px;
+  height: 190px;
+  margin-left: 125px;
+  position: relative;  /*родитель для иконки телефон */
+     margin-top: 120px; /*отступ от верха*/
+     
+   
+}
+
+.tel__h2 {  /*класс для заголвка*/
+  width: 90px;
+  height: 25px; 
+  font-size: 18px;
+  margin-bottom: 20px; /*отступ вниз для номера телефона*/
+line-height: 24.59px;
+letter-spacing: 0.03em;
+text-transform: uppercase; /*все буквы заглавные*/
+
+
+}
+
+.tel__numer {  /*ссылка на номер телефона*/
+    width: 472px;
+  height: 60px;
+       font-size: 53px;
+        line-height: 60px;
+         letter-spacing: 0.03em;
+      text-decoration: none;
+  color: #080808e5;
+
+  }
+
+.tel__mail { /*ссылка на почту*/
+   width: 412px;
+  height: 60px;
+   font-size: 55px;
+   line-height: 60px;
+   display: block; /*долбавила, чтобы сделать отступ вниз*/
+      padding-top: 20px;
+   letter-spacing: 0.03em;
+  color:#0a0a0a;
+  opacity: 50%;
+
+}
+
+.tel:before  { /*псевдоэлемент для родителя BEFORE*/
+  content: ''; 
+  display: block;
+  position: absolute; /*абсол.позиц. позволяент двигать элемент*/
+  top: -35px;
+  width: 13px;
+  height: 22px;
+    background-image: url('../resources/tel.png');
+  background-repeat: no-repeat;
+  background-size: cover; /*занимает всю заданую щирину*/
+background-position: 50%;
+
+}
+
+/*создание подвала*/
+
+.footer {
+  width: 100%;
+  height: 300px;
+  display: inline-block;
+  margin-top: 130px;
+  background-color: #000000;
+ 
+}
+
+.footer p {
+  width: 389px;
+  height: 27px;
+font-size: 17.8px;
+margin-left: 509px; /*отступ влево*/
+padding-top: 150px; /*отступ вниз */
+line-height: 27.32px;
+letter-spacing: 0.03em;
+color:#ffffff;
+opacity: 50%;
+
+}
+
+.nav-footer {  /*свойства панели nav в подвале*/
+width: 450px;
+height: 25px;
+margin-left: 470px; /*отступ в лево на панели*/
+
+}
+
+
+
+.nav-footer__link { /*класс для ссылок-меню*/
+  margin-right: 42px; /*отступы между элементами*/
+color:#ffffff;
+font-size: 18px;
+display: inline-block; /*пославила чтобы сделать оступ nav  в середину*/
+margin-top: 80px; /*отступ панели nav в середину*/
+line-height: 24.59px;
+letter-spacing: 0.03em;
+text-decoration: none;
+
+}
+
+
+.nav-footer__link_active {  /*создание активной ссылки  первый класс не пишу*/
+  opacity: 50%;
+  }
+
+.nav-footer__link:nth-last-child(1){ /*убрала отсут у последнего элемента*/
+  margin-right: 0;
+}
+
+
+
+
+
+
